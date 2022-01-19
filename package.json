@@ -1,0 +1,31 @@
+{
+    "name": "meow-dark",
+    "displayName": "Meow Dark",
+    "description": "something dark and nice",
+    "version": "0.0.1",
+    "publisher": "SayanChowdhury",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "keywords": [
+        "themes",
+        "dark theme",
+        "cool theme",
+        "black theme",
+        "black",
+        "neon",
+        "yellow"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Meow Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Meow Dark-color-theme.json"
+            }
+        ]
+    }
+}
